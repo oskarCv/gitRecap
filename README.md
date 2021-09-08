@@ -35,3 +35,7 @@ If we want to look out on the commits that has been done to the repo we can use 
 probably you may be wondering why you may want to take a look on the various commits that has been executed, the reason is that we can go back in time to a sertain commit using the 'git reset [commitid]' -- soft or -- hard command.
 if we use the soft all goes back to the prev state but what is in stageing remains there.
 if we use the hard all goes back.
+## Git log
+How to use git log command 
+git log shows the list of commits that has been done already 
+git log --stat shows what has beenn added and or removed
