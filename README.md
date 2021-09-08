@@ -39,3 +39,7 @@ if we use the hard all goes back.
 How to use git log command 
 git log shows the list of commits that has been done already 
 git log --stat shows what has beenn added and or removed
+
+# Git checkout 
+With git chekcout command we can go to a prev version of the file if we know the commit that contains the version of the file we want to have 
+git checkout [commit id] file.extention
