@@ -29,3 +29,9 @@ cp, mv, rm, delete       [.................] -------------------->  [...........
                          [.................]                        [............] git reset --hard     [..............]
 <------------------------------------------------------------------------------------------------------ [..............]
                          [.................]                        [............]                      [..............]
+
+## How to See all the commits our repo has 
+If we want to look out on the commits that has been done to the repo we can use the 'git log' command
+probably you may be wondering why you may want to take a look on the various commits that has been executed, the reason is that we can go back in time to a sertain commit using the 'git reset [commitid]' -- soft or -- hard command.
+if we use the soft all goes back to the prev state but what is in stageing remains there.
+if we use the hard all goes back.
