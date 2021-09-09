@@ -35,7 +35,7 @@ If we want to look out on the commits that has been done to the repo we can use 
 probably you may be wondering why you may want to take a look on the various commits that has been executed, the reason is that we can go back in time to a sertain commit using the 'git reset [commitid]' -- soft or -- hard command.
 if we use the soft all goes back to the prev state but what is in stageing remains there.
 if we use the hard all goes back.
-## Git log
+## Git log:
 How to use git log command 
 git log shows the list of commits that has been done already 
 git log --stat shows what has beenn added and or removed
@@ -43,3 +43,11 @@ git log --stat shows what has beenn added and or removed
 # Git checkout 
 With git chekcout command we can go to a prev version of the file if we know the commit that contains the version of the file we want to have 
 git checkout [commit id] file.extention
+
+## Working with tags
+When we are working with a repository, we can have a very long history, that perhaps we may want to add some tags to a sertain commits that we have done in our project, for this we have the tags.
+To add a tag we only have to execute the following command:
+'git tag -a v0.0.1 -m "message" [Commit ID that will be linked to the tag]'
+By convention a tag has a version as we can see it in the above sample.
+
+Keep in mind that if we are not sure on what the Commit ID is the one that we would like to add the tag,  we can use the git log command to bring up the history
