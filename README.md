@@ -55,3 +55,4 @@ If we want to take a look on the tags we have, we can use the cammand
 git tag, and this will list the tags
 Also if we want to take a look on the tags with its related commits we can use the following cammand
 git show-ref --tags
+Remember that when you want to push a tag, you have to use the command git push origin --tags 
