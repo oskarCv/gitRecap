@@ -51,3 +51,7 @@ To add a tag we only have to execute the following command:
 By convention a tag has a version as we can see it in the above sample.
 
 Keep in mind that if we are not sure on what the Commit ID is the one that we would like to add the tag,  we can use the git log command to bring up the history
+If we want to take a look on the tags we have, we can use the cammand 
+git tag, and this will list the tags
+Also if we want to take a look on the tags with its related commits we can use the following cammand
+git show-ref --tags
