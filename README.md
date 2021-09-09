@@ -56,3 +56,10 @@ git tag, and this will list the tags
 Also if we want to take a look on the tags with its related commits we can use the following cammand
 git show-ref --tags
 Remember that when you want to push a tag, you have to use the command git push origin --tags 
+
+## How to delete Tags
+To remove tags that we dont want we use the following commands 
+git tag -d [tag name to be deleted]
+for some cases the above commoand wont delete remote tag, for this we can use the following command:
+git push origin :refs/tags/[deleted tag name]
+
