@@ -63,3 +63,7 @@ git tag -d [tag name to be deleted]
 for some cases the above commoand wont delete remote tag, for this we can use the following command:
 git push origin :refs/tags/[deleted tag name]
 
+## Git ammend 
+When we make a commit but we realizde that we miss something, the way we have to fix it is by doing a ammend 
+in order to run the ammend we have to run the following command 
+git commit --ammend
